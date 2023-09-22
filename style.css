@@ -2,7 +2,21 @@
     padding: 5px;
     margin: 10px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     box-shadow: 10px 5px 5px rgb(218, 88, 2);
     text-align: center;
-    align-items: center;
+    
+}
+
+/* .body {
+    display: block;
+} */
+
+.header {
+    text-align: center;
+}
+
+.card:hover {
+    cursor: pointer;
 }
